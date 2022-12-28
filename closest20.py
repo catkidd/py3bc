@@ -7,10 +7,10 @@ closest = 0
 
 if a < b and a < c:
     closest = a
-    print(f"a({a}) is closest to 0")
+    print(str(closest) + " is closest to 0")
 elif b < c:
     closest = b
-    print(f"b({b}) is closest to 0")
+    print(str(closest) + " is closest to 0")
 else:
     closest = c
-    print(f"c({c}) is closest to 0")
+    print(str(closest) + " is closest to 0")
